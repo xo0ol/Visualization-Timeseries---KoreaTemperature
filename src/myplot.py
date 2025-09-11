@@ -12,7 +12,7 @@ def maintitle_and_save(main_title, fontsize=30, main_y = 1.005):
     plt.tight_layout()
 
     # 이미지 저장
-    plt.savefig(path)
+    plt.savefig(path, bbox_inches='tight')
     plt.show()
 
 
