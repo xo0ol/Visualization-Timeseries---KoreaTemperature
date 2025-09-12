@@ -5,12 +5,15 @@ from scipy.stats import pearsonr
 import numpy as np
 
 # plt 타이틀 설정 및 png 저장 간편 함수 정의
-def maintitle_and_save(main_title, fontsize=30, main_y = 1.005):
-    main_title = main_title
-    path = f'../images/{main_title.replace(" ", "_")}.png'
-    plt.suptitle(main_title, fontsize=fontsize, fontweight='bold', y=main_y)
-    plt.tight_layout()
+def maintitle_and_save(main_title, fontsize=30, main_y = 1.005, folder=None):
 
+    main_title = main_title
+    if folder:
+        path = f'../images/{main_title.replace(" ", "_")}.png'
+    else:
+        path = f'../images/{folder}/{main_title.replace(" ", "_")}.png'
+    plt.suptitle(main_title, fontsize=fontsize, fontweight='bold', y=main_y)
+    plt.tight_layout()  
     # 이미지 저장
     plt.savefig(path, bbox_inches='tight')
     plt.show()
