@@ -1,5 +1,5 @@
 # Korea Temperature Time Series Data Visualization (2005–2024)
-* 본 프로젝트는 2005년부터 2024년까지 20년간의 대한민국 지역별 기상 데이터를 전처리 및 분석하여 시각화하는 것을 목표로 합니다.
+* 2005 ~ 2024년 20년간의 대한민국 지역별 기상 데이터를 전처리 및 분석하여 시각화하는 것을 목표로 합니다.
 * 데이터는 [기상청 자료개방포털](https://data.kma.go.kr/cmmn/main.do)에서 수집하였으며, 이를 기반으로 지역별 기온 특성, 극한 기후 발생 패턴, 계절별 기상 변화를 탐색합니다.
 <p align="center">
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="300" />
@@ -7,7 +7,7 @@
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="300"/>
 </p>
 
-## 📝 프로젝트 개요 (Overview)
+## 📝 Overview
 
 ### 1. 💾 데이터 수집
 
@@ -67,7 +67,7 @@
 📂 전처리 과정은 [KoreaTemp_preprocessing](https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/main/src/KoreaTemp_preprocessing.ipynb) 파일에서 확인할 수 있습니다.
 
 
-### 3. 📊 시각화 및 분석
+## 📊 Visualization
 
 ### <데이터 탐색>
 
@@ -89,7 +89,7 @@
 #### 기온·습도·풍속의 관계
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EA%B8%B0%EC%98%A8%C2%B7%EC%8A%B5%EB%8F%84%C2%B7%ED%92%8D%EC%86%8D%EC%9D%98_%EA%B4%80%EA%B3%84(%EC%9B%94_%EB%B3%80%ED%99%94).png"  width='800'/>
 
-
+---
 ### <기온>
 
 #### 연도별 기온 변화
@@ -123,47 +123,50 @@
 최저기온은 보통 새벽 3시~6시 사이에, 최고기온은 12시~15시 사이에 많이 발생됨.
 그러나 아래 히트맵을 보면 대부분의 지역이 특정 시간구간대에 최저 및 최고 기온 기록 시간대가 몰려있는것에 비해 부산광역시, 제주, 진도 3지역은 최저 및 최고기온 발생 빈도가 구간별로 뚜렷한 차이를 보이지 않음.
 
-
-
 ---
 ### <강수량>
 
 #### 연도별 강수량 합계
-<p align="center">
-  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
-</p>
+
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
+
 
 #### 연도별 월 강수량 합계
-<p align="center">
-  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9B%94_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84_(heatmap).png"  width='800'/>
-</p>
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9B%94_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84_(heatmap).png"  width='800'/>
+
 
 
 #### 연도별 집중호우 빈도
-<p align="center">
+
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/aaadacf8686394e6211475c39fc7fe974f004ab3/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0_%EB%B9%88%EB%8F%84_%EB%B3%80%ED%99%94_%EC%B6%94%EC%9D%B4.png"  width='800'/>
-</p>
+
 
 
 #### 연도별 계절 강수량 변화
-<p align="center">
+
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/aaadacf8686394e6211475c39fc7fe974f004ab3/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EA%B3%84%EC%A0%88_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94.png"  width='800'/>
-</p>
 
 
+---
 ### <적설량>
 
 #### 연도별 적설량 합계
-<p align="center">
+
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%A0%81%EC%84%A4%EB%9F%89/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%8B%A0%EC%A0%81%EC%84%A4%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
-</p>
+
 
 #### 중부지역과 남부지역의 적설량 비교
-<p align="center">
+
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%A0%81%EC%84%A4%EB%9F%89/%EC%A4%91%C2%B7%EB%82%A8%EB%B6%80%EC%A7%80%EC%97%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B9%84%EA%B5%90.png"  width='800'/>
-</p>
+
 
 #### 지역별 적설량 비교
-<p align="center">
+
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%A0%81%EC%84%A4%EB%9F%89/%EC%A7%80%EC%97%AD%EB%B3%84_%EC%8B%A0%EC%A0%81%EC%84%A4%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
-</p>
+
+
+---
+#### 요약
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
