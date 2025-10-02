@@ -9,7 +9,7 @@
 
 ## 📝 Overview
 
-### 1. 💾 데이터 수집
+### 1. 데이터 수집
 
 * 출처: [기상청 자료개방포털](https://data.kma.go.kr/cmmn/main.do)
 * 기간: 2005-2024년
@@ -43,10 +43,10 @@
 | 일 최심적설(cm) | `daily_max_snowfall` | 해당 날짜에 지면에 쌓인 눈의 깊이 중 가장 깊은 값입니다. |
 
 ### 2. 데이터 전처리
-
+>**구체적인 전처리 과정 및 코드는 [<📂KoreaTemp_preprocessing.ipynb>](https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/main/src/KoreaTemp_preprocessing.ipynb) 파일에서 확인할 수 있습니다**
 * 데이터 병합
-
-기상청 데이터에는 해당 지역을 포함하는 행정구역에 대한 정보가 없으므로 해당 지역을 포함하는 행정구역명을 매핑할 수 있도록 'region.csv'파일과 데이터 병합
+  1. 기상청 데이터의 region_number 컬럼(기상관측소 지역 번호)을 기준으로, 해당 지역에 대응하는 행정구역명(예: 서울특별시, 경기도)을 신규 컬럼으로 매핑
+  2. 지역 번호와 행정구역 간 매핑 정보가 포함된 행정구역 참조 데이터(region.csv)와 병합 작업을 수행
     
 * 결측치 처리
   
@@ -64,7 +64,6 @@
   3. 지역명으로 중부지역과 남부지역을 구분하는 `district`컬럼 추가
   4. 계절 컬럼 추가 (봄, 여름, 가을, 겨울)
 
-📂 전처리 과정은 [KoreaTemp_preprocessing](https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/main/src/KoreaTemp_preprocessing.ipynb) 파일에서 확인할 수 있습니다.
 
 
 ## 📊 Visualization
