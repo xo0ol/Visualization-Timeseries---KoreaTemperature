@@ -2,9 +2,9 @@
 * 2005 ~ 2024년 20년간의 대한민국 지역별 기상 데이터를 전처리 및 분석하여 시각화하는 것을 목표로 합니다.
 * 데이터는 [기상청 자료개방포털](https://data.kma.go.kr/cmmn/main.do)에서 수집하였으며, 이를 기반으로 지역별 기온 특성, 극한 기후 발생 패턴, 계절별 기상 변화를 탐색합니다.
 <p align="center">
-  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="300" />
-  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="300"/>
-  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="300"/>
+  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="500" />
+  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="500"/>
+  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="500"/>
 </p>
 
 ## 📝 Overview
@@ -103,24 +103,18 @@
 
 #### 계절별 일교차 비교
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B3%84%EC%A0%88%EB%B3%84_%EC%9D%BC%EA%B5%90%EC%B0%A8_%EB%B9%84%EA%B5%90.png"  width='800'/>
-여름의 최대 일교차가 35도. 4계절 중 최저치
 
 #### 중·남부지역의 계절별 최저/평균/최고온도 변화
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B3%84%EC%A0%88%EB%B3%84_%EC%A4%91%EB%B6%80%EC%A7%80%EC%97%AD%EA%B3%BC_%EB%82%A8%EB%B6%80%EC%A7%80%EC%97%AD%EC%9D%98_%EC%98%A8%EB%8F%84_%EB%B3%80%ED%99%942.png" width='800' />
-남부지역에 중부지역보다 4계절 내내 뚜렸하게 기온이 높음을 보여줌
-다만, 여름의 경우 두 지역의 기온은 눈에 띄는 차이가 없어 동일하게 더움을 보여줌
 
 #### 중·남부지역의 이상기온 발생 빈도
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%A7%80%EC%97%AD%EB%B3%84_%EC%9D%B4%EC%83%81%EA%B8%B0%EC%98%A8_%EB%B0%9C%EC%83%9D_%EB%B9%88%EB%8F%84.png"  width='800'/>
-중부지역 그래프를 보면 대관령이 -10도 이하의 이상기후 발생 빈도가 압도적으로 높음. 남부지역의 경우에는 의성과 봉화가 다른 지역에 비해 비교적 추운 날이 많았음.
 
 #### 연도별 월간 최저/최고 기온
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%98%A8%EB%8F%84/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9B%94%EA%B0%84_%EC%B5%9C%EA%B3%A0%C2%B7%EC%B5%9C%EC%A0%80_%EA%B8%B0%EC%98%A8.png"  width='800'/>
 
 #### 시간대별 최저·최고 기온 발생 빈도
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EC%8B%9C%EA%B0%84%EB%8C%80%EB%B3%84_%EC%B5%9C%EC%A0%80%EC%B5%9C%EA%B3%A0%EA%B8%B0%EC%98%A8_%EB%B0%9C%EC%83%9D_%EB%B9%88%EB%8F%84.png"  width='800'/>
-최저기온은 보통 새벽 3시~6시 사이에, 최고기온은 12시~15시 사이에 많이 발생됨.
-그러나 아래 히트맵을 보면 대부분의 지역이 특정 시간구간대에 최저 및 최고 기온 기록 시간대가 몰려있는것에 비해 부산광역시, 제주, 진도 3지역은 최저 및 최고기온 발생 빈도가 구간별로 뚜렷한 차이를 보이지 않음.
 
 ---
 ### <강수량>
