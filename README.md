@@ -178,25 +178,25 @@
 
 ---
 
-### <적설량>
+### 4. 적설량
 
-#### 연도별 적설량 합계
+#### 4-1. 연도별 적설량 합계
 
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%A0%81%EC%84%A4%EB%9F%89/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%8B%A0%EC%A0%81%EC%84%A4%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
 
 
-#### 중부지역과 남부지역의 적설량 비교
+#### 4-2. 중부지역과 남부지역의 적설량 비교
 
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%A0%81%EC%84%A4%EB%9F%89/%EC%A4%91%C2%B7%EB%82%A8%EB%B6%80%EC%A7%80%EC%97%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B9%84%EA%B5%90.png"  width='800'/>
 
 
-#### 지역별 적설량 비교
+#### 4-3. 지역별 적설량 비교
 
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%A0%81%EC%84%A4%EB%9F%89/%EC%A7%80%EC%97%AD%EB%B3%84_%EC%8B%A0%EC%A0%81%EC%84%A4%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
 
 
 ---
-#### 요약
+#### <요약>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
