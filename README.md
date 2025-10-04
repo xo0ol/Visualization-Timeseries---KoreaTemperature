@@ -68,11 +68,9 @@
 
 ## 📊 Visualization
 
-### <데이터 탐색>
+### 1. 데이터 탐색을 위한 그래프
 
-#### 기상요소별 관계(상관계수)
-<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EA%B8%B0%EC%83%81%EC%9A%94%EC%86%8C%EB%B3%84_%EC%83%81%EA%B4%80%EA%B3%84%EC%88%98.png"  width='800'/>
-
+#### 1-1. 기상요소별 관계(상관계수)
 |관계 변수|상관계수|해석|
 |--|--|--|
 |기온과 강수량|0.71|평균기온이 높아질 수록 강수량이 높아짐|
@@ -80,67 +78,106 @@
 |기온과 최대풍속|-0.55|기온이 높아질 수록 최대풍속은 낮아짐|
 |최대풍속과 평균상대습도|-0.74|최대 풍속이 커질 수록 평균상대습도가 낮아짐|
 |강수량과 평균상대습도|0.77|강수량이 높아질 수록 평균상대습도가 높아짐|
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EA%B8%B0%EC%83%81%EC%9A%94%EC%86%8C%EB%B3%84_%EC%83%81%EA%B4%80%EA%B3%84%EC%88%98.png"  width='600'/>
 
+#### 1-2. 기상요소별 분포의 특성(계절별 비교)
+>최저, 최고, 평균 기온 분포에서는 한국의 사계절 온도 특성이 잘 드러나고 있다.
+>
+>봄과 가을이 유사한 기온대에 위치하는 반면, 여름과 겨울은 뚜렷한 극단적 온도 분포를 형성하고 있다.
+>
+>풍속은 계절별로 큰 차이를 보이지 않으나, 여름 분포가 다른 계절에 비해 얇고 높은 봉우리를 형성하고 있다. 이는 다른 계절에 비해 10 이하의 풍속이 분 날이 많았음을 의미한다.
+>
+>합계 일조시간은 계절별로 나누어도 0 부근과 10부근에서 두 개의 봉우리(이봉 분포)를 형성하고 있다. 이는 계절만으로 설명되지 않는 또 다른 요인(예: 지역, 구름 등)이 일조시간 분포를 결정하는 것으로 추정할 수 있으며, 추가 요인 고려가 필요하다.
 
-#### 기상요소별 분포의 특성(계절별 비교)
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B8%B0%EC%83%81_%EC%9A%94%EC%86%8C%EB%B3%84_%EB%B6%84%ED%8F%AC_%ED%8A%B9%EC%84%B1.png"  width='800'/>
 
-#### 기온·습도·풍속의 관계
+#### 1-3. 기온·습도·풍속의 관계
+>기온과 습도는 계절 변화에 따라 유사한 패턴을 보이며, 함께 상승하거나 하락하는 경향이 나타난다.
+>
+>반면, 풍속은 이들과 반비례적인 관계를 보여 기온과 습도가 높을수록 낮아지고, 기온과 습도가 낮을수록 강해지는 특징을 가진다.
+
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EA%B8%B0%EC%98%A8%C2%B7%EC%8A%B5%EB%8F%84%C2%B7%ED%92%8D%EC%86%8D%EC%9D%98_%EA%B4%80%EA%B3%84(%EC%9B%94_%EB%B3%80%ED%99%94).png"  width='800'/>
 
 ---
-### <기온>
+### 2. 기온
 
-#### 연도별 기온 변화
+#### 2-1. 연도별 기온 변화
+>연도별로 전체 지역에서 관측된 최저, 평균, 최고 기온을 평균을 내어 그린 그래프. 최저, 평균, 최고기온 세 지표 모두 전반적으로 상승하는 추세를 보이고 있다.
+>
+>특히 최근으로 갈수록 상승 폭이 뚜렷하게 나타나며, 이는 장기적인 기후 변화와 지구 온난화의 영향을 반영하는 것으로 해석될 수 있다.
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/3c01864ad78781b2950ae4b1c031d9e932c98ce4/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94.png"  width='800'/>
 
-#### 연도별 월 평균 기온
+#### 2-2. 연도별 월 평균 기온
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9B%94_%ED%8F%89%EA%B7%A0_%EA%B8%B0%EC%98%A8_(heatmap).png"  width='800'/>
 
-#### 연도별 극단 기후 변화
-<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%B5%9C%EA%B3%A0_%EB%B0%8F_%EC%B5%9C%EC%A0%80_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94_%EC%B6%94%EC%9D%B4.png"  width='800'/>
-
-
-#### 계절별 일교차 비교
-<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B3%84%EC%A0%88%EB%B3%84_%EC%9D%BC%EA%B5%90%EC%B0%A8_%EB%B9%84%EA%B5%90.png"  width='800'/>
-
-#### 중·남부지역의 계절별 최저/평균/최고온도 변화
-<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B3%84%EC%A0%88%EB%B3%84_%EC%A4%91%EB%B6%80%EC%A7%80%EC%97%AD%EA%B3%BC_%EB%82%A8%EB%B6%80%EC%A7%80%EC%97%AD%EC%9D%98_%EC%98%A8%EB%8F%84_%EB%B3%80%ED%99%942.png" width='800' />
-
-#### 중·남부지역의 이상기온 발생 빈도
-<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%A7%80%EC%97%AD%EB%B3%84_%EC%9D%B4%EC%83%81%EA%B8%B0%EC%98%A8_%EB%B0%9C%EC%83%9D_%EB%B9%88%EB%8F%84.png"  width='800'/>
-
-#### 연도별 월간 최저/최고 기온
+#### 2-3. 연도별 극단 기후 변화
+>연도별로 해당 연도에서 나타난 최저 기온과 최고 기온을 그린 그래프.
+>
+>2005~2024년 동안 최고 기온은 2018년에 41.0℃로 가장 높았고, 최저 기온은 2012년에 -27.7℃로 가장 낮게 기록되었다.
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/70ce266ef68a4ebc53bd4a26785118a9328e1c9a/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%B5%9C%EA%B3%A0_%EB%B0%8F_%EC%B5%9C%EC%A0%80_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94_%EC%B6%94%EC%9D%B4.png"  width='800'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EC%98%A8%EB%8F%84/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9B%94%EA%B0%84_%EC%B5%9C%EA%B3%A0%C2%B7%EC%B5%9C%EC%A0%80_%EA%B8%B0%EC%98%A8.png"  width='800'/>
 
-#### 시간대별 최저·최고 기온 발생 빈도
+#### 2-4. 계절별 일교차 비교
+>일교차가 가장 작은 계절은 여름(최대 약 35℃), 가장 큰 계절은 봄(최대 약 48.6℃)으로 나타났다. 
+>
+>이는 여름철에는 기온이 전반적으로 고르게 높게 유지되는 반면, 봄·가을·겨울에는 일교차가 크게 발생함을 의미한다.
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B3%84%EC%A0%88%EB%B3%84_%EC%9D%BC%EA%B5%90%EC%B0%A8_%EB%B9%84%EA%B5%90.png"  width='800'/>
+
+#### 2-5. 중·남부지역의 계절별 최저/평균/최고온도 변화
+>여름에는 중부지역과 남부지역의 최소, 평균, 최대 온도 차이가 거의 보이지 않는 반면, 겨울에는 중부지역이 남부지역보다 눈에 띄게 낮은 온도를 기록했다.
+>
+>전체적으로 남부지역이 중부지역보다 높은 온도를 유지하며 온화한 기후를 보인다.
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EA%B3%84%EC%A0%88%EB%B3%84_%EC%A4%91%EB%B6%80%EC%A7%80%EC%97%AD%EA%B3%BC_%EB%82%A8%EB%B6%80%EC%A7%80%EC%97%AD%EC%9D%98_%EC%98%A8%EB%8F%84_%EB%B3%80%ED%99%942.png" width='800' />
+
+#### 2-6. 중·남부지역의 이상기온 발생 빈도
+>-15도 이하(파란색 계열)인 극한 저온 발생 빈도는 남부지역에 비해 중부지역에서 훨씬 두드러지게 나타난다.
+>
+>특히 철원, 파주, 제천, 대관령에서 극한 저온이 자주 발생했으며, 이 중에서 대관련의 빈도가 가장 높다.
+>
+>30도 이상(붉은색 계열)인 극한 고온 발생 빈도는 남부지역에 압도적으로 높게 나타난다.
+>
+>특히 35도 이상의 극심한 폭염(진한 붉은색) 빈도 역시 남부지역 도시들에서 더 뚜렷하게 관찰된다.
+
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%A7%80%EC%97%AD%EB%B3%84_%EC%9D%B4%EC%83%81%EA%B8%B0%EC%98%A8_%EB%B0%9C%EC%83%9D_%EB%B9%88%EB%8F%84.png"  width='800'/>
+
+#### 2-7. 시간대별 최저·최고 기온 발생 빈도
+>선 그래프는 각 시간대를 x축으로 하여 최저 및 최고기온이 나타난 시간대의 빈도를 나타낸다.
+>
+>히트맵은 전체 시간 구간을 백분율로 하여 특정 시간대에 나타난 횟수를 비율로 표시한다.
+>
+>대부분의 지역에서 03시~09시 사이에 최저기온이 가장 높은 빈도로 발생했다. 특히 03시-06시 구간이 가장 진한 파란색을 나타낸다.
+>
+>대부분의 지역에서 12시~18시 사이에 최고기온이 압도적으로 높은 빈도로 발생했다. 특히 12시-15시 구간(짙은 빨간색)은 태양 복사가 가장 강하고 지표면의 열 축적이 정점에 달하는 낮 시간대의 특성을 나타낸다.
+>
+>바다의 영향을 강하게 받는 해양성 기후의 특성을 보이는 부산, 인천, 제주, 진도 등의 특정 지역에서는 다른 내륙 지역에 비해 상대적으로 특정 시간대에 몰리는 경향이 적다. 
+
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e2de6b711965134c9dd7c1ba6c25e8d0168655b3/images/%EC%8B%9C%EA%B0%84%EB%8C%80%EB%B3%84_%EC%B5%9C%EC%A0%80%EC%B5%9C%EA%B3%A0%EA%B8%B0%EC%98%A8_%EB%B0%9C%EC%83%9D_%EB%B9%88%EB%8F%84.png"  width='800'/>
 
 ---
-### <강수량>
+### 3. 강수량
 
-#### 연도별 강수량 합계
-
+#### 3-1. 연도별 강수량 합계
+>20년간의 강수량은 120,000 부근의 평균값(붉은 점선)을 중심으로 상당히 큰 폭으로 등락을 거듭하고 있다. 이는 강수 패턴이 안정적이지 않고 불규칙한 변동성을 보이고 있음을 의미한다.
+>
+>2023년(165,567), 2020년(154,177), 2011년(151,295), 2024년(140,087) 등은 강수량이 평균치를 훨씬 초과하였으며, 특히 2023년은 20년간 최고치를 기록하며 이들 연도에는 집중호우나 홍수 피해 위험이 매우 높았음을 보여준다.
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84.png"  width='800'/>
 
+#### 3-2. 연도별 집중호우 빈도
+>가장 높은 강수량을 기록했던 2023년, 2020년, 2011년에서 강수 횟수가 많았음을 확인할 수 있다.
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/aaadacf8686394e6211475c39fc7fe974f004ab3/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0_%EB%B9%88%EB%8F%84_%EB%B3%80%ED%99%94_%EC%B6%94%EC%9D%B4.png"  width='800'/>
 
-#### 연도별 월 강수량 합계
+#### 3-3. 연도별 월 강수량 합계
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6736592eae6636479c93a7a069bfaadeba326abf/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9B%94_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84_(heatmap).png"  width='800'/>
 
-
-
-#### 연도별 집중호우 빈도
-
-  <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/aaadacf8686394e6211475c39fc7fe974f004ab3/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0_%EB%B9%88%EB%8F%84_%EB%B3%80%ED%99%94_%EC%B6%94%EC%9D%B4.png"  width='800'/>
-
-
-
-#### 연도별 계절 강수량 변화
+#### 3-4. 연도별 계절 강수량 변화
 
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/aaadacf8686394e6211475c39fc7fe974f004ab3/images/%EC%97%B0%EB%8F%84%EB%B3%84_%EA%B3%84%EC%A0%88_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94.png"  width='800'/>
 
+#### 3-5. 지역별 강수량 합계
+<img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/6899031c71780b1038788056ad933b56547ad525/images/%EC%A7%80%EC%97%AD%EB%B3%84_%EA%B0%95%EC%88%98%EB%9F%89_%ED%95%A9%EA%B3%84.png" width="800">
 
 ---
+
 ### <적설량>
 
 #### 연도별 적설량 합계
