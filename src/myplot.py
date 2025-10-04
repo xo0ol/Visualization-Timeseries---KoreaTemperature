@@ -9,9 +9,9 @@ def maintitle_and_save(main_title, fontsize=30, main_y = 1.005, folder=None):
 
     main_title = main_title
     if folder:
-        path = f'../images/{main_title.replace(" ", "_")}.png'
-    else:
         path = f'../images/{folder}/{main_title.replace(" ", "_")}.png'
+    else:
+        path = f'../images/{main_title.replace(" ", "_")}.png'
     plt.suptitle(main_title, fontsize=fontsize, fontweight='bold', y=main_y)
     plt.tight_layout()  
     # 이미지 저장
