@@ -197,7 +197,7 @@
 
 
 ---
-#### <요약>
+### 5. 정리
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
