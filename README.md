@@ -7,7 +7,7 @@
   <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/bd0ba62c50436d19ae3c8345a59b2cefd0850cd1/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png" width="400"/>
 </p>
 
-## 📝 Overview
+## **📝 Overview**
 
 ### 1. 데이터 수집
 
@@ -43,7 +43,7 @@
 | 일 최심적설(cm) | `daily_max_snowfall` | 해당 날짜에 지면에 쌓인 눈의 깊이 중 가장 깊은 값입니다. |
 
 ### 2. 데이터 전처리
->**구체적인 전처리 과정 및 코드는 [<📂KoreaTemp_preprocessing.ipynb>](https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/main/src/KoreaTemp_preprocessing.ipynb) 파일에서 확인할 수 있습니다**
+>**전처리 과정 및 코드는 [<📂KoreaTemp_preprocessing.ipynb>](https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/main/src/KoreaTemp_preprocessing.ipynb) 파일에서 확인할 수 있습니다**
 * 데이터 병합
   1. 기상청 데이터의 region_number 컬럼(기상관측소 지역 번호)을 기준으로, 해당 지역에 대응하는 행정구역명(예: 서울특별시, 경기도)을 신규 컬럼으로 매핑
   2. 지역 번호와 행정구역 간 매핑 정보가 포함된 행정구역 참조 데이터(region.csv)와 병합 작업을 수행
@@ -66,7 +66,8 @@
 
 
 
-## 📊 Visualization
+## **📊 Visualization**
+>**시각화 코드는 [<📂Visualization_TimeSeries_koreatemp.ipynb>](https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/e60339db83eec4bed84bab46db9b392829ca09c1/src/Visualization_TimeSeries_koreatemp.ipynb) 파일에서 확인할 수 있습니다**
 
 ### 1. 데이터 탐색을 위한 그래프
 
@@ -200,3 +201,8 @@
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B8%B0%EC%98%A8_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B0%95%EC%88%98%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
 <img src="https://github.com/xo0ol/Visualization-Timeseries---KoreaTemperature/blob/2585b9f8c75a348d65daf97b9badb996aa9af80f/images/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A0%81%EC%84%A4%EB%9F%89_%EB%B3%80%ED%99%94(2005%EB%85%84~2024%EB%85%84).png"  width='1000'/>
+
+
+## **🌫️ Notes to Self**
+
+* nan 값 대체 시 `sklearn.imputer`를 사용하여 전처리 견고성을 높이자!!
